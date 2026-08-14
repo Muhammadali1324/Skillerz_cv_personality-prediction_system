@@ -1,0 +1,30 @@
+============================================================
+ Personality Prediction System Through CV Analysis
+ Python + Flask + scikit-learn
+============================================================
+
+1. Unzip this folder.
+
+2. Open a terminal inside the unzipped folder
+   (the one that contains app.py).
+
+3. Install and run:
+
+      pip install -r requirements.txt
+      python app.py
+
+   Or double-click:
+
+      Windows : run.bat
+      Mac/Linux: bash run.sh
+
+4. Browser:  http://127.0.0.1:5000
+
+5. Demo resumes are in:  data/sample_cvs/
+   Upload any .txt or .docx file on the Analyze page.
+
+Need to rebuild the AI model?
+
+      python models/train_model.py
+
+Full write-up: README.md
